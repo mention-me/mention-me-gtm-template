@@ -1,0 +1,5 @@
+homepage: "https://www.mention-me.com/"
+documentation: "https://docs.mention-me.com/knowledge/tags/google-tag-manager"
+versions:
+    - sha: PLACEHOLDER_FIRST_RELEASE_SHA
+      changeNotes: "Initial release. One template, four tag types: Product, Checkout (referee), Post-purchase (referrer), and Landing. Live and Test environments. Every field accepts a GTM variable via the built-in picker."
