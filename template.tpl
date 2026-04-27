@@ -1036,12 +1036,29 @@ scenarios:
       surname: 'Simpson',
       email: 'r@example.com',
       order_number: '1',
-      order_subtotal: '',
-      coupon_code: null
+      order_subtotal: ''
     };
     mock('injectScript', (url, onSuccess) => {
       assertThat(url).doesNotContain('order_subtotal=');
-      assertThat(url).doesNotContain('coupon_code=');
+      onSuccess();
+    });
+    runCode(mockData);
+    assertApi('gtmOnSuccess').wasCalled();
+
+- name: coupon_code is always sent (empty when blank)
+  code: |-
+    const mockData = {
+      tagType: 'postpurchase',
+      partnerCode: 'TEST123',
+      locale: 'en_GB',
+      firstname: 'Regina',
+      surname: 'Simpson',
+      email: 'r@example.com',
+      order_number: '1',
+      coupon_code: null
+    };
+    mock('injectScript', (url, onSuccess) => {
+      assertThat(url).contains('coupon_code=');
       onSuccess();
     });
     runCode(mockData);
