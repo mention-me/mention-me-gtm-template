@@ -673,7 +673,7 @@ const PATHS = {
   product: 'product',
   checkout: 'refereefind',
   postpurchase: 'referreroffer',
-  landing: 'landing'
+  landing: 'referreroffer'
 };
 
 const SITUATIONS = {
@@ -973,7 +973,7 @@ scenarios:
       lnd_implementation: 'embed'
     };
     mock('injectScript', (url, onSuccess) => {
-      assertThat(url).contains('https://tag.mention-me.com/api/v2/landing/TEST123');
+      assertThat(url).contains('https://tag.mention-me.com/api/v2/referreroffer/TEST123');
       assertThat(url).contains('situation=landingpage');
       assertThat(url).contains('email=regina%40example.com');
       assertThat(url).contains('username=regina_s');
@@ -994,7 +994,7 @@ scenarios:
       environment: 'test'
     };
     mock('injectScript', (url, onSuccess) => {
-      assertThat(url).contains('https://tag-demo.mention-me.com/api/v2/landing/TEST123');
+      assertThat(url).contains('https://tag-demo.mention-me.com/api/v2/referreroffer/TEST123');
       onSuccess();
     });
     runCode(mockData);
