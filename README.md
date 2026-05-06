@@ -1,12 +1,12 @@
 # Mention Me Referral Tag
 
-**Add Mention Me's referral programme to your store via Google Tag Manager. One template, four tag types.**
+**Add Mention Me's referral programme to your store via Google Tag Manager. One template, five tag types.**
 
-This Google Tag Manager template installs the Mention Me referral tag on the four pages where it runs: product, checkout, post-purchase, and landing. Pick a tag type, map your data layer values into the fields, and the template injects the matching Mention Me script for that page.
+This Google Tag Manager template installs the Mention Me referral tag on the five pages where it runs: product, checkout, post-purchase, landing, and dashboard. Pick a tag type, map your data layer values into the fields, and the template injects the matching Mention Me script for that page.
 
 ## Features
 
-- **One template, four tag types**: Product, Checkout (referee), Post-purchase (referrer), Landing
+- **One template, five tag types**: Product, Checkout (referee), Post-purchase (referrer), Landing, Dashboard
 - **Live and Test environments**: switch between production and sandbox (`tag-demo.mention-me.com`) with a single radio
 - **Customer data passthrough**: name, email, customer ID, phone, segment fed straight into the tag
 - **Order and product context**: pass order ID, total, currency, coupon, products array, basket value, and product attributes (id, sku, name, price)
@@ -27,6 +27,9 @@ Renders the referrer experience on the order confirmation page to invite custome
 ### Landing page
 Powers dedicated referral landing pages.
 
+### Dashboard (customer account)
+Renders the branded referral dashboard inside the customer account area so referrers can track their referral status, see rewards, and re-share. Fire on the page in your account/profile section where you want the dashboard to appear.
+
 **[View Mention Me GTM setup guide](https://docs.mention-me.com/knowledge/tags/google-tag-manager)**
 
 ## Installation
@@ -36,7 +39,7 @@ Powers dedicated referral landing pages.
 1. Active Mention Me account ([sign up](https://app.mention-me.com/))
 2. Your **partner code**. Find it at app.mention-me.com → Settings → Installation
 3. Google Tag Manager installed on your website
-4. A `<div id="mmWrapper"></div>` element on any page running the **Checkout**, **Post-purchase**, or **Landing** tag (GTM templates cannot inject DOM, so the div must be in your page markup before the tag fires)
+4. A `<div id="mmWrapper"></div>` element on any page running the **Checkout**, **Post-purchase**, **Landing**, or **Dashboard** tag (GTM templates cannot inject DOM, so the div must be in your page markup before the tag fires)
 
 ### Setup Instructions
 
@@ -49,7 +52,7 @@ Powers dedicated referral landing pages.
 
 #### Step 2: Store your partner code as a Constant variable (recommended)
 
-Partner code is the same across all four tag instances. Storing it once means a partner-code rotation is a single edit instead of four.
+Partner code is the same across all five tag instances. Storing it once means a partner-code rotation is a single edit instead of five.
 
 1. Go to **Variables** → **New** → **Constant**
 2. Name it `Constant - Mention Me Partner Code`
@@ -66,7 +69,7 @@ Partner code is the same across all four tag instances. Storing it once means a 
    **Required:**
    - **Partner code**: point at `{{Constant - Mention Me Partner Code}}`
    - **Environment**: `Live` for production, `Test` for sandbox/QA
-   - **Tag type**: pick `Product`, `Checkout`, `Post-purchase`, or `Landing`
+   - **Tag type**: pick `Product`, `Checkout`, `Post-purchase`, `Landing`, or `Dashboard`
    - **Locale**: defaults to `en_GB`; override for non-UK stores
 
    **Per tag type**: map your data layer values into the customer, order, and product fields shown for the selected tag type.

@@ -19,7 +19,7 @@ ___INFO___
     "displayName": "Mention Me",
     "thumbnail": "data:image/png;base64,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"
   },
-  "description": "Install the Mention Me referral tag on product, checkout, post-purchase, and landing pages. One template, four tag types. Pick a type, map your data layer values, and the tag injects the matching Mention Me script.",
+  "description": "Install the Mention Me referral tag on product, checkout, post-purchase, landing, and dashboard pages. One template, five tag types. Pick a type, map your data layer values, and the tag injects the matching Mention Me script.",
   "containerContexts": ["WEB"],
   "securityGroups": []
 }
@@ -85,6 +85,11 @@ ___TEMPLATE_PARAMETERS___
         "value": "landing",
         "displayValue": "Landing page",
         "help": "Add to dedicated referral landing pages."
+      },
+      {
+        "value": "dashboard",
+        "displayValue": "Dashboard (customer account)",
+        "help": "Add to the customer account area so referrers can track their referral status."
       }
     ],
     "simpleValueType": true,
@@ -658,6 +663,118 @@ ___TEMPLATE_PARAMETERS___
         "help": "Force a specific presentation method. Leave default unless instructed."
       }
     ]
+  },
+  {
+    "type": "GROUP",
+    "name": "dashboardCustomerGroup",
+    "displayName": "Customer details",
+    "groupStyle": "NO_ZIPPY",
+    "enablingConditions": [
+      { "paramName": "tagType", "paramValue": "dashboard", "type": "EQUALS" }
+    ],
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "dsh_firstname",
+        "displayName": "First name",
+        "simpleValueType": true,
+        "valueHint": "Regina",
+        "valueValidators": [
+          { "type": "NON_EMPTY", "errorMessage": "First name is required for the dashboard tag." }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "dsh_surname",
+        "displayName": "Surname",
+        "simpleValueType": true,
+        "valueHint": "Simpson",
+        "valueValidators": [
+          { "type": "NON_EMPTY", "errorMessage": "Surname is required for the dashboard tag." }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "dsh_email",
+        "displayName": "Email",
+        "simpleValueType": true,
+        "valueHint": "regina@example.com",
+        "valueValidators": [
+          { "type": "NON_EMPTY", "errorMessage": "Email is required for the dashboard tag." }
+        ]
+      },
+      {
+        "type": "GROUP",
+        "name": "dashboardCustomerExtraGroup",
+        "displayName": "More customer details (optional)",
+        "groupStyle": "ZIPPY_CLOSED",
+        "subParams": [
+          {
+            "type": "TEXT",
+            "name": "dsh_fullname",
+            "displayName": "Full name",
+            "simpleValueType": true,
+            "help": "Use instead of (or in addition to) first/surname when only the full name is available.",
+            "valueHint": "Regina Simpson"
+          },
+          {
+            "type": "TEXT",
+            "name": "dsh_customer_id",
+            "displayName": "Customer ID",
+            "simpleValueType": true,
+            "help": "Your unique customer identifier.",
+            "valueHint": "MI1404024521"
+          },
+          {
+            "type": "TEXT",
+            "name": "dsh_phone_number",
+            "displayName": "Phone number",
+            "simpleValueType": true,
+            "help": "One or more numbers, comma-separated. URL-encode non-digit characters.",
+            "valueHint": "+44 20 7946 0958"
+          },
+          {
+            "type": "TEXT",
+            "name": "dsh_segment",
+            "displayName": "Segment",
+            "simpleValueType": true,
+            "help": "Customer segment, max 50 characters.",
+            "valueHint": "men"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "GROUP",
+    "name": "dashboardAdvancedGroup",
+    "displayName": "Advanced (optional)",
+    "groupStyle": "ZIPPY_CLOSED",
+    "enablingConditions": [
+      { "paramName": "tagType", "paramValue": "dashboard", "type": "EQUALS" }
+    ],
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "dsh_custom_field",
+        "displayName": "Custom field",
+        "simpleValueType": true,
+        "help": "Arbitrary custom data. Mention Me will store and surface this verbatim."
+      },
+      {
+        "type": "SELECT",
+        "name": "dsh_implementation",
+        "displayName": "Implementation override",
+        "selectItems": [
+          { "value": "", "displayValue": "Mention Me decides (recommended)" },
+          { "value": "link", "displayValue": "Link" },
+          { "value": "embed", "displayValue": "Embed" }
+        ],
+        "simpleValueType": true,
+        "macrosInSelect": true,
+        "help": "Force a specific presentation method. Leave default unless instructed."
+      }
+    ]
   }
 ]
 
@@ -673,14 +790,16 @@ const PATHS = {
   product: 'product',
   checkout: 'refereefind',
   postpurchase: 'referreroffer',
-  landing: 'referreroffer'
+  landing: 'referreroffer',
+  dashboard: 'dashboard'
 };
 
 const SITUATIONS = {
   product: 'product',
   checkout: 'checkout',
   postpurchase: 'postpurchase',
-  landing: 'landingpage'
+  landing: 'landingpage',
+  dashboard: 'dashboard'
 };
 
 const HOSTS = {
@@ -747,6 +866,16 @@ if (!path) {
     append('custom_share_field', data.lnd_custom_share_field);
     append('call_to_action_url', data.lnd_call_to_action_url);
     append('implementation', data.lnd_implementation);
+  } else if (tagType === 'dashboard') {
+    append('firstname', data.dsh_firstname);
+    append('surname', data.dsh_surname);
+    append('fullname', data.dsh_fullname);
+    append('email', data.dsh_email);
+    append('customer_id', data.dsh_customer_id);
+    append('phone_number', data.dsh_phone_number);
+    append('segment', data.dsh_segment);
+    append('custom_field', data.dsh_custom_field);
+    append('implementation', data.dsh_implementation);
   } else if (tagType === 'postpurchase') {
     append('firstname', data.firstname);
     append('surname', data.surname);
@@ -985,6 +1114,94 @@ scenarios:
     runCode(mockData);
     assertApi('gtmOnSuccess').wasCalled();
 
+- name: Dashboard tag includes customer details
+  code: |-
+    const mockData = {
+      tagType: 'dashboard',
+      partnerCode: 'TEST123',
+      locale: 'en_GB',
+      environment: 'live',
+      dsh_firstname: 'Regina',
+      dsh_surname: 'Simpson',
+      dsh_email: 'regina@example.com'
+    };
+    mock('injectScript', (url, onSuccess) => {
+      assertThat(url).contains('https://tag.mention-me.com/api/v2/dashboard/TEST123');
+      assertThat(url).contains('situation=dashboard');
+      assertThat(url).contains('locale=en_GB');
+      assertThat(url).contains('firstname=Regina');
+      assertThat(url).contains('surname=Simpson');
+      assertThat(url).contains('email=regina%40example.com');
+      onSuccess();
+    });
+    runCode(mockData);
+    assertApi('gtmOnSuccess').wasCalled();
+
+- name: Dashboard tag targets tag-demo host in test environment
+  code: |-
+    const mockData = {
+      tagType: 'dashboard',
+      partnerCode: 'TEST123',
+      locale: 'en_GB',
+      environment: 'test',
+      dsh_firstname: 'Regina',
+      dsh_surname: 'Simpson',
+      dsh_email: 'regina@example.com'
+    };
+    mock('injectScript', (url, onSuccess) => {
+      assertThat(url).contains('https://tag-demo.mention-me.com/api/v2/dashboard/TEST123');
+      onSuccess();
+    });
+    runCode(mockData);
+    assertApi('gtmOnSuccess').wasCalled();
+
+- name: Dashboard tag omits missing customer fields from URL
+  code: |-
+    const mockData = {
+      tagType: 'dashboard',
+      partnerCode: 'TEST123',
+      locale: 'en_GB',
+      dsh_firstname: 'Regina',
+      dsh_email: 'regina@example.com'
+    };
+    mock('injectScript', (url, onSuccess) => {
+      assertThat(url).contains('firstname=Regina');
+      assertThat(url).contains('email=regina%40example.com');
+      assertThat(url).doesNotContain('surname=');
+      onSuccess();
+    });
+    runCode(mockData);
+    assertApi('gtmOnSuccess').wasCalled();
+
+- name: Dashboard tag emits optional customer and advanced fields
+  code: |-
+    const mockData = {
+      tagType: 'dashboard',
+      partnerCode: 'TEST123',
+      locale: 'en_GB',
+      environment: 'live',
+      dsh_firstname: 'Regina',
+      dsh_surname: 'Simpson',
+      dsh_email: 'regina@example.com',
+      dsh_fullname: 'Regina Simpson',
+      dsh_customer_id: 'MI1404024521',
+      dsh_phone_number: '+44 20 7946 0958',
+      dsh_segment: 'vip',
+      dsh_custom_field: 'loyalty-tier-gold',
+      dsh_implementation: 'embed'
+    };
+    mock('injectScript', (url, onSuccess) => {
+      assertThat(url).contains('fullname=Regina%20Simpson');
+      assertThat(url).contains('customer_id=MI1404024521');
+      assertThat(url).contains('phone_number=%2B44%2020%207946%200958');
+      assertThat(url).contains('segment=vip');
+      assertThat(url).contains('custom_field=loyalty-tier-gold');
+      assertThat(url).contains('implementation=embed');
+      onSuccess();
+    });
+    runCode(mockData);
+    assertApi('gtmOnSuccess').wasCalled();
+
 - name: Test environment targets tag-demo host
   code: |-
     const mockData = {
@@ -1080,4 +1297,4 @@ scenarios:
 
 ___NOTES___
 
-Single template, four tag types. Generates the same URL the Mention Me JavaScript snippets produce, but driven by GTM-native fields rather than hard-named data layer variables.
+Single template, five tag types. Generates the same URL the Mention Me JavaScript snippets produce, but driven by GTM-native fields rather than hard-named data layer variables.
