@@ -45,10 +45,12 @@ Renders the branded referral dashboard inside the customer account area so refer
 
 #### Step 1: Install the Mention Me Referral Tag template
 
-1. In Google Tag Manager, go to the **Templates** section in the sidebar
-2. Under **Tag Templates**, click **Search Gallery**
-3. Search for **Mention Me Referral Tag**
-4. Click **Add to workspace**
+1. Download [`template.tpl`](https://github.com/mention-me/mention-me-gtm-template/blob/main/template.tpl) using the **Download raw file** button (top right)
+2. In Google Tag Manager, go to **Templates**, and under **Tag Templates** click **New**
+3. In the Template Editor, open the **⋮** menu (top right) and click **Import**
+4. Select the downloaded `template.tpl` and click **Save**
+
+> **Note**: Manually imported templates do not receive automatic updates. To update, download the latest `template.tpl`, open your existing template in the Template Editor, import the new file over it, save, and republish your container.
 
 #### Step 2: Store your partner code as a Constant variable (recommended)
 
